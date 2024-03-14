@@ -13,7 +13,7 @@
      <br> 
      <b>Hi, I'm DuckieIsADev, and I like coding, game making, ect.</b>
      </h2>
-     <h4>
+     <h4 id="body">
         <br>
         <br>
         Go check out my stuff:
@@ -45,10 +45,12 @@
         "Refresh the page for new cat . . ."
      </button>
      <br>
-    <button onclick="new Audio('what music theory sounds like  (kinda jazz) - Copy.webm').play()">
+    <button id="MusicButton" onclick="
+    new Audio('toby fox - UNDERTALE Soundtrack - 84 Amalgam.mp3').play(); 
+    document.getElementById('body').removeChild(document.getElementById('MusicButton'));">
         Click for music :3
     </button>
     <script src="randCats.js"></script>
-     </h4>
+    </h4>
     </body>
 </html>
