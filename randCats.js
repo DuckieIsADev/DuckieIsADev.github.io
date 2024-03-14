@@ -1,24 +1,8 @@
 const catNumb = 6;
+const catList = [null,"catsfolder/byebyecat.JPG","catsfolder/codecat (2).JPG","catsfolder/codecatend.JPG","catsfolder/codecaticon.JPG","catsfolder/codecatx.JPG","catsfolder/glitchcat.JPG"]
 let catLoaded = Math.round(Math.random() * (catNumb -1)) + 1;
 
-if (catLoaded == 1){
-    catLoaded = "catsfolder/byebyecat.JPG";
-}
-else if (catLoaded == 2){
-    catLoaded = "catsfolder/codecat (2).JPG";
-}
-else if (catLoaded == 3){
-    catLoaded = "catsfolder/codecatend.JPG";
-}
-else if (catLoaded == 4){
-    catLoaded = "catsfolder/codecaticon.JPG";
-}
-else if (catLoaded == 5){
-    catLoaded = "catsfolder/codecatx.JPG";
-}
-else if (catLoaded == 6){
-    catLoaded = "catsfolder/glitchcat.JPG";
-}
+catLoaded = catList[catLoaded]
 
 const img = document.createElement("img");
 document.body.appendChild(img);
