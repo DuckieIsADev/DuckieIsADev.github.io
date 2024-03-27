@@ -6,4 +6,4 @@ racLoaded = racList[racLoaded]
 
 const img = document.createElement("img");
 document.body.appendChild(img);
-img.src = catLoaded;
+img.src = racLoaded;
