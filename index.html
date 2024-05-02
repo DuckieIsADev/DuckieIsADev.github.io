@@ -1,26 +1,61 @@
 <html>  
 <head> 
     <title> 
-        HomePage - Duckie's Website
+        HomePage | Duckie's Website
     </title>
     <link rel="icon" type="image/x-icon" href="codecaticon.JPG">
 </head>
+<head>
+    <style> 
+        html,
+        body {
+            margin: 0;
+        }    
 
-<body style="background-color: #04062E; color: #ffedb1">
+        .banner {
+            background: #592379;
+        }
+        .banner__content {
+            padding: 16px;
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .banner__text{
+            flex-grow: 1;
+            line-height: 1.4;
+            font-family: 'Quicksand', comic-sans;
+        }
+    </style>
+</head>
+
+<body  style="background-color: #04062E; color: #ffedb1">
+
+    <div class="banner">
+        <div class="banner__content">
+            <div class="banner__text">
+                <strong>Heya!</strong>   Welcome to my website!
+            </div>
+            <butto class="banner__close" type="button"> <a target="_blank" href="mylittlefriend.html"> ⁂ </a></button>
+        </div>
+    </div>
+    
     <a target="_blank" href="https://www.bing.com/search?q=duckieisadev&shm=cr&form=DEEPSH&shmgid=4955F5CC36A67215D6356660AE3D9DAA&adlt=strict&toWww=1&redig=6D644EC7D76643138A49ECB3ECED97C2&shajax=1">
-        <img src="groupimgs/emoticons/IMG_0887.JPG" width="405" height="405"></a>
+        <img src="groupimgs/emoticons/IMG_0887.JPG" width="205" height="205"></a>
      <h2>
          Hi, welcome 🇬🇧 - Hej, valkommen 🇸🇪
      </h2> 
      <h4 id="body">
          <b> Bio: Hi, I'm DuckieIsADev, and I like coding, game making, ect.</b>
         <br>
-         <script src = "randRaccon.js"></script>
+         <scrip src = "randRaccon.js"></script>
          <br>
         Go check out my stuff:
      <br>
      <br>
-     <a target="_blank" href="https://duckieisadev.github.io/quackersGames.html">Quackers Games Website</a>
+     <a target="_blank" href="quackersGames.html">Quackers Games Website</a>
      <br>
      <a target="_blank" href="https://www.roblox.com/groups/15270547/Quackers-Games#!/about">Quackers Games (Roblox)</a>
      <br>
@@ -47,8 +82,8 @@
      <br>
      <br>
      <br>
-     <button onclick="location.reload();">
-        Refresh the page for new "cat" . . .
+     <butto onclick="location.reload();">
+            Refresh the page for any "cat" problems. . .
      </button>
      <br>
     <button id="MusicButton" onclick="
