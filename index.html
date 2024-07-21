@@ -4,9 +4,8 @@
         HomePage | Duckie's Website
     </title>
     <link rel="icon" type="image/x-icon" href="catsfolder/codecaticon.JPG">
-</head>
-<head>
     <style> 
+    #more {display: none;}
                 html,
         p.b {
   text-align-last: center;
@@ -23,7 +22,7 @@ p.c {
             background: #592379;
         }
         .banner__content {
-            padding: 16px;
+            padding: 5px;
             max-width: 1000px;
             margin: 0 auto;
             display: flex;
@@ -40,12 +39,12 @@ p.c {
 
 <body  style="background-color: #04062E; color: #ffedb1; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
 <p class="b">
-    <d   class="banner">
+    <di   class="banner">
         <div class="banner__content">
             <div class="banner__text">
-                
+               <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;"><b></b></p>
             </div>
-            <butto class="banner__close" type="button"> <a target="_blank" href="mylittlefriend.html"> <a ⁂> </a></button>
+            
         </div>
     </div>
     
@@ -55,12 +54,12 @@ p.c {
          Hi, welcome 🇬🇧 - Hej, valkommen 🇸🇪
      </h1> 
      <h4 id="body">
-         <b> Bio: Hi, I'm DuckieIsADev, and I like coding, game making, ect.</b>
-        <br>
-        <br><img src="quack.GIF"><br>
+         <button style="background-color: #0a2a58; color:#ffedb1; height: 60px; width: 300px; border: x;" onclick="location.href='heloo.html'"> <h2>Get To Know Me!</button>
+        <br><br>
+        <img src="patreon-logo-2_orig.png" style="width: 240;height: 70;" onclick="location.href='https://patreon.com/DuckieIsADev'">
          <br>
         <h2>Social links and Jazz!! </h2>
-     <a target="_blank" href="quackersGames.html">Quackers Games Website</a>
+    <p> <a target="_blank" href="quackersGames.html">Quackers Games Website</a>
      <br><br>
      <a target="_blank" href="https://www.roblox.com/groups/15270547/Quackers-Games#!/about">Quackers Games (Roblox)</a>
      <br><br>
@@ -68,7 +67,32 @@ p.c {
       <br><br>
       <a target="_blank" href="https://github.com/DuckieIsADev">GitHub Account</a>
       <br><br>
-      <a target="_blank" href="://open.spotify.com/user/emma1318https2?si=Gyl0qS_SoKxSGCJP@pbTg">Spotify Profile</a>
+      <span id="dots"></span><span id="more">      <a target="_blank" href="://open.spotify.com/user/emma1318https2?si=Gyl0qS_SoKxSGCJP@pbTg">Spotify Profile</a>
+        <br><br>
+        <a target="_blank" href="https://newgrounds.com/DuckieIsADev">Newgrounds Account</a>
+        <br><br>
+        <a target="_blank" href="https://steamcommunity.com/profiles/76561199673157112/">Steam Profile</a>
+        <br><br>
+        <a target="_blank" href="https://patreon.com/DuckieIsADev"> Patreon</a></span></p>
+        <button onclick="myFunction()" id="myBtn" style="background-color:#ffedb1; color: #04062E; height: 30px; width: 100px;"><b>View More</b></button>
+    <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "View More"; 
+    moreText.style.display = "none";
+  }
+  else {
+    dots.style.display = "none";
+    btnText.innerHTML = " View Less "; 
+    moreText.style.display = "inline";
+  }
+}
+    </script>
       <br>
       <br>
      <h1></h1><h5>
@@ -86,17 +110,18 @@ p.c {
      <br>
      <a href="swdn_index.html">Swedish Translation (Old version)</a><br><br><a href="translatewarn.html     ">Other Translations</a>
      <br>
+     
      <br>
      <h3>meme of da month</h3><h2> STONKS :3</h2><br>
      <img   
         src="kramer.JPG" 
         width="400px" height="300px">
     </iframe>
-     <br><br><button type="reset" style="height: 70px; width: 300px; color: rgb(238, 255, 0); background-color: rgb(255, 0, 0)" onclick="location.href='NSVN.org.html'"><img src="IMG_0927.PNG" width="196px" height="53px"></button><br><br>
+     <br><br><button type="reset" style="height: 70px; width: 300px; color: rgb(238, 255, 0); background-color: rgb(255, 0, 0)" onclick="location.href='STOPRIGHTTHERE.html'"><img src="IMG_0927.PNG" width="196px" height="53px"></button><br><br>
      <button style="background-color:#ffedb1; color: #04062E;" onclick="location.reload();" >
             Refresh the page for any "cat" problems. . .
      </button>
-     <br><br>
+     <br><br> 
     <button id="MusicButton" onclick="
     new Audio('toby fox - UNDERTALE Soundtrack - 83 Here We Are.mp3').play(); 
     document.getElementById('body').removeChild(document.getElementById('MusicButton'));" style="background-color:#ffedb1; color: #04062E;">
